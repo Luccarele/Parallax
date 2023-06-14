@@ -1,0 +1,69 @@
+body,
+html {
+  margin: 0px;
+  font-family: 16px "lato", sans-serif;
+  color: #777;
+  height: 100%;
+}
+
+.container {
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+.container span.titulo {
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container-2 {
+  background-color: white;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+/*efeito do parallax*/
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.8;
+}
+
+.caixa1 {
+  background-image: url(./Imagens/Saturno.png);
+}
+
+.caixa2 {
+  background-image: url(./Imagens/Terra.jpg);
+}
+
+.caixa3 {
+  background-image: url(./Imagens/marte.jpg);
+}
+
+.caixa4 {
+  background-image: url(./Imagens/lua.jpg);
+}
+h2 {
+  text-transform: uppercase;
+  color: black;
+}
+
+p {
+  margin-bottom: 20px;
+}
